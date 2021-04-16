@@ -1,0 +1,27 @@
+{
+  "name": "react-boxx",
+  "version": "1.0.0",
+  "description": "Typed react box component with css-in-js styling",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/lukasbach/react-boxx",
+  "repository": "https://github.com/lukasbach/react-boxx",
+  "author": "Lukas Bach <lbach@outlook.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/cxs": "^6.2.1",
+    "cxs": "^6.2.0"
+  },
+  "scripts": {
+    "start": "tsc",
+    "prepublish": "tsc"
+  }
+}
